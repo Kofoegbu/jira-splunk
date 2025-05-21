@@ -13,6 +13,7 @@ Version Control: GitLab
 Connector- Splunk DB Connector + Heavy Forwarder + Indexer
 Visualization: Splunk Dashboard
 
+```
 jira_etl_project/
 ├── dags/                  # Airflow DAGs for scheduling
 │   └── jira_etl_dag.py
@@ -21,3 +22,4 @@ jira_etl_project/
 ├── config/                # Configuration files
 │   └── settings.json
 └── requirements.txt       # Project dependencies
+```
